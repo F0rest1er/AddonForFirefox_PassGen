@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <title></title>
+    <link rel="stylesheet" type="text/css" href="style.css" />
+  </head>
+  <body>
+    <h1 id="popupTitle"></h1>
+    <div class="option">
+      <label for="length" id="passwordLengthLabel"></label>
+      <div class="input-group">
+        <button class="decrement">-</button>
+        <input type="number" id="length" min="4" max="64" value="12" />
+        <button class="increment">+</button>
+      </div>
+    </div>
+    <div class="option">
+      <label
+        ><input type="checkbox" id="uppercase" checked />
+        <span id="uppercaseLabel"></span
+      ></label>
+    </div>
+    <div class="option">
+      <label
+        ><input type="checkbox" id="lowercase" checked />
+        <span id="lowercaseLabel"></span
+      ></label>
+    </div>
+    <div class="option">
+      <label
+        ><input type="checkbox" id="numbers" checked />
+        <span id="numbersLabel"></span
+      ></label>
+    </div>
+    <div class="option">
+      <label
+        ><input type="checkbox" id="symbols" /> <span id="symbolsLabel"></span
+      ></label>
+    </div>
+    <div class="option">
+      <label for="count" id="passwordCountLabel"></label>
+      <div class="input-group">
+        <button class="decrement">-</button>
+        <input type="number" id="count" min="1" max="10" value="1" />
+        <button class="increment">+</button>
+      </div>
+    </div>
+    <button id="generate"></button>
+    <div id="result"></div>
+    <script src="popup.js" type="module"></script>
+  </body>
+</html>
