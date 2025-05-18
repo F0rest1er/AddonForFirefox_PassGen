@@ -1,0 +1,32 @@
+{
+  "extensionName": {
+    "message": "Генератор паролей"
+  },
+  "extensionDescription": {
+    "message": "Генерация безопасных паролей с настраиваемыми параметрами"
+  },
+  "popupTitle": {
+    "message": "Генератор паролей"
+  },
+  "passwordLength": {
+    "message": "Длина пароля"
+  },
+  "uppercaseLetters": {
+    "message": "Заглавные буквы"
+  },
+  "lowercaseLetters": {
+    "message": "Строчные буквы"
+  },
+  "numbers": {
+    "message": "Цифры"
+  },
+  "specialSymbols": {
+    "message": "Специальные символы"
+  },
+  "passwordCount": {
+    "message": "Количество паролей"
+  },
+  "generateButton": {
+    "message": "Сгенерировать пароли"
+  }
+}

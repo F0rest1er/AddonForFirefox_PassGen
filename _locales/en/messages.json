@@ -1,0 +1,32 @@
+{
+  "extensionName": {
+    "message": "Password Generator"
+  },
+  "extensionDescription": {
+    "message": "Generate secure passwords with customizable options"
+  },
+  "popupTitle": {
+    "message": "Password Generator"
+  },
+  "passwordLength": {
+    "message": "Password Length"
+  },
+  "uppercaseLetters": {
+    "message": "Uppercase Letters"
+  },
+  "lowercaseLetters": {
+    "message": "Lowercase Letters"
+  },
+  "numbers": {
+    "message": "Numbers"
+  },
+  "specialSymbols": {
+    "message": "Special Symbols"
+  },
+  "passwordCount": {
+    "message": "Number of Passwords"
+  },
+  "generateButton": {
+    "message": "Generate Passwords"
+  }
+}
